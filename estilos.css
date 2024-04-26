@@ -68,3 +68,79 @@ body{
     box-shadow: 0 0 10px #c400d6, 0 0 20px #c400d6, 0 0 40px #c400d6;
 }
 
+.codeC{
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-shadow:0 0 10px #c400d6, 0 0 20px #c400d6, 0 0 40px #c400d6;
+}
+
+.Ingresar_codigos{
+    border: 2px solid #Fafafa10;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #c400d6;
+    width: 50%;
+    height: 540px;
+    position: relative;
+    left: 20px;
+}
+.glass{
+    background: #Fafafa10;
+    backdrop-filter: blur(0.4rem);
+}
+label{
+    color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 15px;
+    position: absolute;
+}
+.username{
+    background-color: #27252700;
+    color: #ffff;
+    position: absolute;
+    margin: 20px;
+    top: 29px;
+    font-size: 15px;
+    border-color: #a206ebab;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Caja_de_codigo{
+    background-color: #27252700;
+    border-color: #a206ebab;
+    color: #ffff;
+    text-align: center;
+    margin: 20px;
+    left: 1px;
+    top: 100px;
+    position: absolute;
+    font-size: 30px;
+    width: 615px;
+    height: 352px;
+    border-radius: 20px;
+    resize: none;
+}
+.text_area{
+    top: 66px;
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+.codigo_area{
+    position: absolute;
+    bottom: 16px;
+    left: 26%;
+    width: 300px;
+    border-radius: 20px;
+    border-color: #c400d6;
+    background-color: #Fafafa10;
+    color: #ffff;
+    font-size: 20px;
+}

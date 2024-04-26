@@ -1,0 +1,47 @@
+body{
+    background-image: url(estrellas.gif);
+    width: auto;
+}
+
+.wazos{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(224, 224, 218);
+    font-size: 40px;
+    height: 106px;
+    width: 1328px;
+    box-shadow: 0 0 20px black;
+    border-radius: 5px;
+    background-color: rgba(134, 22, 238, 0.432);
+}
+
+.contenedor{
+    display: flex;
+    height: 100vh;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    padding: 20px 50px;
+    color: #ffff;
+    text-decoration: none;
+    font-size:110px;
+    letter-spacing: 2px;
+    transition: all 0.6s ease;
+    background-color: rgba(8, 8, 8, 0.904);
+}
+
+.btn-C{
+    border: 3px solid;
+    border-radius: 5px;
+}
+.btn-C:hover{
+    background-color: #c400d6;
+    box-shadow: 0 0 10px #c400d6, 0 0 20px #c400d6, 0 0 40px #c400d6;
+}
+

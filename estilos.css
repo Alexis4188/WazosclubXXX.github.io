@@ -6,31 +6,32 @@ body{
 .wazos{
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(224, 224, 218);
     font-size: 40px;
+    color: rgb(224, 224, 218);
     height: 106px;
-    width: 1328px;
-    box-shadow: 0 0 20px black;
+    width: 1200px;
+    margin: 5%;
     border-radius: 5px;
-    background-color: rgba(134, 22, 238, 0.432);
+    background-color: rgba(152, 22, 238, 0.637);
+    box-shadow: 0 0 10px #ffffff, 0 0 20px #e100ff, 0 0 40px #ffffff;
 }
 
-.contenedor{
-    display: flex;
-    height: 100vh;
-    gap: 25px;
+.contenedor1{
+    height: 60vh;
+    gap: 0px;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 
 .btn{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
+    position: absolute;
     padding: 20px 50px;
     color: #ffff;
     text-decoration: none;
-    font-size:110px;
+    font-size: 120px;
     letter-spacing: 2px;
     transition: all 0.6s ease;
     background-color: rgba(8, 8, 8, 0.904);
@@ -38,9 +39,31 @@ body{
 
 .btn-C{
     border: 3px solid;
+    font-size: 240px;
+    text-align: center;
+    justify-content: center;
     border-radius: 5px;
+    position: absolute;
+    left: 70px;
+    height: 300px;
+    width: 400px;
 }
 .btn-C:hover{
+    background-color: #c400d6;
+    box-shadow: 0 0 10px #c400d6, 0 0 20px #c400d6, 0 0 40px #c400d6;
+}
+.btn-p{
+    border: 3px solid;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    right: 80px;
+    width: 500px;
+    height: 240px;
+    padding: 50px;
+    font-size: 100px;
+}
+.btn-p:hover{
     background-color: #c400d6;
     box-shadow: 0 0 10px #c400d6, 0 0 20px #c400d6, 0 0 40px #c400d6;
 }
